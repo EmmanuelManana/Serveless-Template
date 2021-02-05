@@ -4,5 +4,9 @@
 - sls deploy -v or sls dpeloy
 - help, sls --help or sls -h
 
-<!-- create a fnction though mocha -->
+<!-- create a fnction through mocha -->
 serverless create function -f testFunction --handler src/functions/testFunction.testFunction --path src/tests/
+
+
+<!-- how to use -->
+serverless create --template-path "where you cloned this repo" --path "the service you want to create"
